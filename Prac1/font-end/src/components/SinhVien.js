@@ -13,7 +13,7 @@ const SinhVien = () =>{
             {},
             (frame)=>{
                 console.log(frame);
-                stompClient.subscribe("/notification/p308",receiveAction);
+                stompClient.subscribe("/notification/p309",receiveAction);
             },
             (error) => {
                 console.log(error);

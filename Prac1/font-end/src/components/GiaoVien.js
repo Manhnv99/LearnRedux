@@ -1,6 +1,6 @@
 import {Button} from "antd";
-import {connectWebSocket, getStompClient, receiveAction, sendNotification} from "../apis/WebsocketConfig";
-import {useEffect, useState} from "react";
+import {connectWebSocket, getStompClient, sendNotification, sendNotification1} from "../apis/WebsocketConfig";
+import {useEffect} from "react";
 
 
 const GiaoVien = () => {
@@ -12,7 +12,7 @@ const GiaoVien = () => {
             {},
             (frame)=>{
                 console.log(frame);
-                stompClient.subscribe("/notification/p308",receiveAction);
+                stompClient.subscribe("/notification/p309",receiveAction);
             },
             (error) => {
                 console.log(error);
@@ -24,13 +24,11 @@ const GiaoVien = () => {
         console.log(action)
     }
 
-
-
     const handlePhatDeThi = () => {
         const phatDe ={
             action:"PHAT_DE"
         }
-        sendNotification(phatDe);
+        sendNotification1(phatDe);
     }
 
     return(
