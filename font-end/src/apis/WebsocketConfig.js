@@ -16,6 +16,10 @@ export const sendNotification = (message) => {
     stompClient.send("/app/phatde",{}, JSON.stringify(message));
 }
 
+export const sendNotification1 = (message) => {
+    stompClient.send("/app/phatde1",{}, JSON.stringify(message));
+}
+
 export const disconnect = () => {
     if (stompClient !== null) {
         stompClient.disconnect();
