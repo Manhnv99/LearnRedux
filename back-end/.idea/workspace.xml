@@ -4,69 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453d5206-2ce1-406f-9122-2b3a4a6a7046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/apis/StudentAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/redux/actions/StudentActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/redux/reducer/StudentReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/redux/reducer/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/redux/types/StudentTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prac1/font-end/src/utils/axiosCustomize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0099aa8c-de2a-43d5-a143-39c0bc087cd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../font-end/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../font-end/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../back-end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../back-end/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="2d5e5934ji1uL9KlBDzeQkujNWZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2drkALvjDEoiqd3621O7t1pqfFa" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prac1/back-end" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/LearnByMySelf/LearnRedux-Antd/back-end",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
-    <configuration name="Prac1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="back-end" />
+    <configuration name="Prac1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="prac1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nvm.prac1.Prac1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,30 +52,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="453d5206-2ce1-406f-9122-2b3a4a6a7046" name="Default Changelist" comment="" />
-      <created>1709302182197</created>
+      <changelist id="0099aa8c-de2a-43d5-a143-39c0bc087cd7" name="Changes" comment="" />
+      <created>1710773440343</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709302182197</updated>
-      <workItem from="1709302183328" duration="5388000" />
-      <workItem from="1709363382216" duration="102000" />
-      <workItem from="1709363491735" duration="14000" />
+      <updated>1710773440343</updated>
+      <workItem from="1710773441486" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
