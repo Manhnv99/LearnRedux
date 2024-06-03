@@ -1,0 +1,44 @@
+services:
+  springbootapp:
+    image: be
+    container_name: be-springboot
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    networks:
+      - redux_antd
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: manh99123
+      MYSQL_DB: redux_antd
+    depends_on:
+      - mysql
+  reactapp:
+    image: fe
+    container_name: fe-react
+    restart: on-failure
+    ports:
+      - "3000:3000"
+    networks:
+      - redux_antd
+    depends_on:
+      - springbootapp
+  mysql:
+    image: mysql:8.0
+    container_name: db-mysql
+    restart: on-failure
+    volumes:
+      - mysql_redux_antd:/var/lib/mysql
+      - ./initdb.sql:/docker-entrypoint-initdb.d/initdb.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: manh99123
+      MYSQL_DATABASE: redux_antd
+    ports:
+      - "3307:3306"
+    networks:
+      - redux_antd
+networks:
+  redux_antd:
+volumes:
+  mysql_redux_antd:
